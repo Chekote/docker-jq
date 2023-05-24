@@ -1,5 +1,5 @@
 # docker-jq
-Docker image for the jq command
+Docker image for the [jq](https://stedolan.github.io/jq/) command
 
 ## Dist:
 The image is hosted on Docker Hub at https://hub.docker.com/r/chekote/jq.
