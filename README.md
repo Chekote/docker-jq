@@ -5,6 +5,8 @@ Docker image for the [jq](https://stedolan.github.io/jq/) command
 The image is hosted on Docker Hub at https://hub.docker.com/r/chekote/jq.
 
 ## Usage:
+This image is built on the [Chekote/alpine](https://hub.docker.com/r/chekote/alpine) image. Please see that [project's README](https://github.com/Chekote/docker-alpine#readme) for more information.
+
 See `bin/jq` for a simple `docker run` command that will run jq with the provided arguments.
 
 For seamless usage of the command as if it is installed as a native app, create the same `bin/jq` script in your path and make it executable.
