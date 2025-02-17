@@ -1,3 +1,6 @@
+# chekote/jq:latest
+# chekote/jq:$(jq --version)
+# chekote/jq:$(jq --version)-$(date '+%Y-%m-%d-%H-%M-%S')
 FROM chekote/alpine:latest
 
 RUN set -eux; \
