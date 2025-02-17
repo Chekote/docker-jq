@@ -13,4 +13,6 @@ RUN set -eux; \
     apk add jq; \
 	#
     # verify that the binary works
-	su-exec echo '{"message":"It works!"}' | jq .message; \
+	su-exec echo '{"message":"It works!"}' | jq .message;
+
+WORKDIR /workdir
